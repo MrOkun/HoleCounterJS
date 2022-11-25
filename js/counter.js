@@ -168,7 +168,10 @@ function count()
 
     for(let i = 0; i < text.length; i++)
     {
-        holesCount += table[text[i]];
+        if(table[text[i]] != undefined)
+        {
+            holesCount += table[text[i]];
+        }
     }
 
     document.getElementById("counter-text").innerHTML = "Holes count : " + holesCount;
