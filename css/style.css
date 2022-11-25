@@ -1,0 +1,79 @@
+body {
+    background-color: #141414;
+    color: #edefe3;
+
+    font-family: 'Ubuntu', sans-serif;
+    
+    text-align: center;
+    font-size: 145%;
+}
+
+#canvas {
+    height: 768px;
+    width: 768px;
+    border: 1px solid #edefe3;
+}   
+
+.github-link
+{
+    color: #edefe3;
+
+    outline: none;
+    text-decoration: none;
+}
+
+textarea
+{
+    border: #3a393b 2px solid;
+    font-size: 200%;
+    resize: none;
+    width: 10em;
+    height: 10em;
+    size: 100%;
+}
+
+.title-text 
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+}
+
+.input-container 
+{  
+    margin-top: 7em;
+}
+
+.counter-text 
+{
+    margin-bottom: 0;
+    margin-left: -9.8em;
+}
+
+button 
+{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #323f4d;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 18px 10.62em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button:hover
+{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #383838;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 16px;
+    border-radius: 4px;
+}
